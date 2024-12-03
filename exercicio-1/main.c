@@ -1,3 +1,16 @@
+// Dada uma lista sequencial ordenada estática L1, escreva métodos em C que:
+// a. Verifique se L1 está ordenada ou não (a ordem pode ser crescente ou decrescente)
+// b. Faça uma cópia da lista L1 em uma outra lista L2;
+// c. Faça uma cópia da Lista L1 em L2, eliminando elementos repetidos;
+// d. Inverta L1 colocando o resultado em L2;
+// e. Inverta L1 colocando o resultado na própria L1;
+// f. Intercale L1 com a lista L2, gerando a lista L3. considere que L1, L2 e L3 são ordenadas.
+// g. Gere uma lista L2 onde cada registro contém dois campos de informação: elem contém um elemento de L1, 
+// e count contém quantas vezes este elemento aparece em L1.
+// h. Elimine de L1 todas as ocorrências de um elemento dado, L1 ordenada.
+// i. Assumindo que os elementos da lista L1 são inteiros positivos, forneça os elementos que 
+// aparecem o maior e o menor número de vezes (forneça os elementos e o número de vezes correspondente)
+
 #include <stdio.h>
 #include <string.h>
 
